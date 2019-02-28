@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="搜索"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="always"
+        android:orderInCategory="200"
+        android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/table_setting"
+                app:showAsAction="always|withText"
+                android:title="设置课表"/>
+            <item
+                android:id="@+id/wall_setting"
+                app:showAsAction="always|withText"
+                android:title="表白墙关键字"/>
+            <item
+                android:id="@+id/lock_setting"
+                app:showAsAction="always|withText"
+                android:title="关闭上课锁屏服务"/>
+        </menu>
+    </item>
+
+</menu>

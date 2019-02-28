@@ -1,0 +1,6 @@
+[('http://www.cs.fudan.edu.cn/?p=25390', '12.20 | A Deep Learning Approach to Jointly Exploit Spatial and Temporal Patterns for Accurate Air Quality Forecasting', '2018-12-11'), ('http://www.cs.fudan.edu.cn/?p=25379', '12.17 | Adversarial-Resilience Assurance for Mobile Security Systems（对抗机器学习与移动安全系统）', '2018-12-11'), ('http://www.cs.fudan.edu.cn/?p=25363', '12.20 | 抖音背后的那些黑科技', '2018-12-11')]
+[('http://www.fao.fudan.edu.cn/74/ae/c1691a160942/page.htm', '宣讲会-华盛顿圣路易斯大学麦道国际学者学会全额奖学金介绍', '2018-12-11')]
+[('http://hospital.fudan.edu.cn/74/ac/c1308a160940/page.htm', '复旦大学2018年12月份无偿献血名单', '2018-12-11')]
+[]
+[('http://news.fudan.edu.cn/2018/1210/47036.html', '复旦女排荣获大学生排球联赛（南方赛区）冠军', '2018-12-10'), ('http://news.fudan.edu.cn/2018/1210/47035.html', '复旦6家附属医院相关项目入选“上海卫生改革发展20件事”', '2018-12-10'), ('http://news.fudan.edu.cn/2018/1210/47030.html', '学习贯彻中国工会十七大精神辅导报告——校工会召开2018年工会干部培训会', '2018-12-10'), ('http://news.fudan.edu.cn/2018/1211/47038.html', '上海交通大学与山东大学签署战略合作协议', '2018-12-11'), ('http://news.fudan.edu.cn/2018/1211/47037.html', '天津大学医教联合体成立', '2018-12-11')]
+[('http://www.jwc.fudan.edu.cn/74/79/c9397a160889/page.htm', '关于认真做好2018年秋季学期期末考试工作的通知（教通2018-139号）', '2018-12-11')]

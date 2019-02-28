@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newsMenu"
+        android:title="新闻" />
+    <item
+        android:id="@+id/wallMenu"
+        android:title="表白墙" />
+    <item
+        android:id="@+id/classtableMenu"
+        android:title="课表" />
+    <!--
+    <item
+        android:id="@+id/settingMenu"
+        android:title="设置" />
+     -->
+</menu>

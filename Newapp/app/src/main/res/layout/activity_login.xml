@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.newapp.login">
+<LinearLayout
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    app:layout_constraintLeft_toLeftOf="parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="课表设置"
+        android:gravity="center"
+        android:textSize="30dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00FF7F"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/user_text"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:text="学号"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_alignBottom="@+id/user_text"
+            android:layout_toEndOf="@+id/user_text" />
+
+        <TextView
+            android:id="@+id/pwd_text"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/user"
+            android:layout_marginTop="25dp"
+            android:text="密码"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pwd_text"
+            android:layout_toEndOf="@+id/pwd_text"
+            android:inputType="textPassword" />
+
+        <Spinner
+            android:id="@+id/yearSp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/pwd_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentEnd="true"
+            android:entries="@array/year"> </Spinner>
+
+        <Spinner
+            android:id="@+id/xqSp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="34dp"
+            android:entries="@array/xq"
+            android:layout_below="@+id/yearSp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"></Spinner>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="登录"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="40dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
